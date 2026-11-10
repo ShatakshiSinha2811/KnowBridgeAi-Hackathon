@@ -1,0 +1,136 @@
+
+.source-page {
+  padding: 40px;
+  min-height: 100vh;
+  background: #f5f8fa;
+}
+
+.source-header {
+  margin-bottom: 30px;
+}
+
+.source-header h1 {
+  font-size: 27px;
+  color: #172b4d;
+  margin-bottom: 8px;
+}
+
+.source-header p {
+  color: #8492a6;
+  font-size: 14px;
+}
+
+.upload-box {
+  background: white;
+  border: 2px dashed #b8d5d0;
+  border-radius: 12px;
+  padding: 55px 20px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.upload-icon {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.upload-box h2 {
+  font-size: 20px;
+  color: #172b4d;
+  margin-bottom: 10px;
+}
+
+.upload-box p {
+  color: #8492a6;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.upload-btn {
+  display: inline-block;
+  background: #176b65;
+  color: white;
+  padding: 13px 23px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background: #105750;
+}
+
+.uploaded-section h2 {
+  font-size: 20px;
+  color: #172b4d;
+  margin-bottom: 18px;
+}
+
+.empty-message {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  color: #8492a6;
+  font-size: 14px;
+  text-align: center;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 18px;
+  border: 1px solid #e8edf1;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.file-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.file-info b {
+  display: block;
+  font-size: 14px;
+  color: #172b4d;
+  overflow-wrap: anywhere;
+}
+
+.file-info small {
+  display: block;
+  color: #8492a6;
+  margin-top: 6px;
+}
+
+.file-item button {
+  background: #fff0f0;
+  color: #c74747;
+  padding: 9px 13px;
+}
+
+@media (max-width: 600px) {
+  .source-page {
+    padding: 25px 18px;
+  }
+
+  .file-item {
+    flex-wrap: wrap;
+  }
+}
+.process-btn {
+  display: block;
+  margin-top: 25px;
+  background: #176b65;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.process-btn:hover {
+  background: #105750;
+}

@@ -1,0 +1,131 @@
+
+.handover-page {
+  padding: 32px;
+  color: #263442;
+  background: #f7f9fc;
+  min-height: 100vh;
+}
+
+.handover-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.handover-header h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+.handover-header p {
+  color: #718096;
+  font-size: 14px;
+}
+
+.generate-report-btn,
+.view-report-btn {
+  background: #287c68;
+  color: white;
+  border: 1px solid #287c68;
+  padding: 11px 18px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.handover-welcome {
+  background: #eaf5f1;
+  border-left: 4px solid #269b78;
+  padding: 24px;
+  border-radius: 9px;
+  margin-bottom: 25px;
+}
+
+.handover-welcome h2 {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.handover-welcome p {
+  color: #536b65;
+  line-height: 1.6;
+}
+
+.handover-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.handover-stat-card {
+  background: white;
+  padding: 22px;
+  border: 1px solid #e5eaf0;
+  border-radius: 12px;
+}
+
+.handover-stat-card h3 {
+  font-size: 26px;
+  color: #287c68;
+  margin-bottom: 7px;
+}
+
+.handover-stat-card p {
+  color: #718096;
+  font-size: 13px;
+}
+
+.report-section {
+  background: white;
+  padding: 24px;
+  border: 1px solid #e5eaf0;
+  border-radius: 12px;
+}
+
+.report-section h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.report-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #e5eaf0;
+  border-radius: 9px;
+  flex-wrap: wrap;
+}
+
+.report-card h3 {
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+.report-card p {
+  color: #718096;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.report-card span {
+  color: #b7791f;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  .handover-page {
+    padding: 18px;
+  }
+
+  .handover-stats {
+    grid-template-columns: 1fr;
+  }
+}

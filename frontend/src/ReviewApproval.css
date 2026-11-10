@@ -1,0 +1,140 @@
+
+.review-page {
+  padding: 30px;
+  color: #243047;
+}
+
+.review-header {
+  margin-bottom: 28px;
+}
+
+.review-header h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+.review-header p {
+  color: #718096;
+  font-size: 14px;
+}
+
+.review-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.review-summary > div {
+  background: white;
+  padding: 22px;
+  border-radius: 12px;
+  border: 1px solid #e5eaf0;
+}
+
+.review-summary h3 {
+  font-size: 26px;
+  color: #287c68;
+  margin-bottom: 6px;
+}
+
+.review-summary p {
+  color: #718096;
+  font-size: 13px;
+}
+
+.review-list {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #e5eaf0;
+}
+
+.review-list h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.review-card {
+  border: 1px solid #e5eaf0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.review-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.review-category {
+  background: #eaf5f1;
+  color: #287c68;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.review-status {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.review-status.pending {
+  color: #b7791f;
+}
+
+.review-status.approved {
+  color: #27845c;
+}
+
+.review-status.rejected {
+  color: #c53030;
+}
+
+.review-card h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+.review-card p {
+  color: #718096;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.review-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.review-actions button {
+  padding: 9px 16px;
+  border-radius: 7px;
+  border: 1px solid #287c68;
+  background: #287c68;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.review-actions button:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 700px) {
+  .review-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .review-page {
+    padding: 18px;
+  }
+}
